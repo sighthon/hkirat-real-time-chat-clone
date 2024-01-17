@@ -13,6 +13,13 @@ Real time chat in Node.js
 ```
 npx tsc --init
 npm init -y
+mkdir src && touch src/index.ts
 ```
 * Changes to `tsconfig.json`: Update `rootDir` and `outDir`
+* Websocket deps
+```
+npm install websocket
+npm i --save @types/websocket
+```
+
 
