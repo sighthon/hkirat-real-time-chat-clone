@@ -19,5 +19,5 @@ export abstract class Store {
 
     addChat(userId: UserId, roomId: string, name: string, message: string) { }
 
-    upvote(userId: UserId, roomId: string, chatId: string) { }
+    upvote(upvoterId: UserId, roomId: string, chatId: string) { }
 }
